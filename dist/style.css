@@ -1,0 +1,24 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.aside_img {
+  border: 1px solid black;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto;
+  width: 100vw;
+}/*# sourceMappingURL=style.css.map */
